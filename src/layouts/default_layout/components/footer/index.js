@@ -75,7 +75,7 @@ const Footer = () => {
                   </li>
                   <li>
                     <p><Link to="mail">maxhospital@gmail.com</Link>
-                    </p>
+                    </p> 
                   </li>
                   <li>
                     <p>
