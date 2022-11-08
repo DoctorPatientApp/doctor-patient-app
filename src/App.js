@@ -6,6 +6,7 @@ import Doctor from "./components/Doctor"
 import { Routes, Route } from "react-router-dom"
 import Patient from "./components/Patient"
 import DefaultLayout from "./layouts/default_layout"
+import DoctorLogin from "./components/Doctor/Doctor-login"
 
 const App = () => (
 
@@ -14,6 +15,7 @@ const App = () => (
         <Route path='/' element={<DefaultLayout/>}>
           <Route index element={<HomePage />} />
           <Route path='doctor' element={<Doctor />} >
+            <Route path="login" element={<DoctorLogin/>}/>
           </Route>
           <Route path = 'patient' element={<Patient/>}>
           </Route>
