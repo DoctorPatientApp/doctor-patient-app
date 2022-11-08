@@ -2,6 +2,7 @@ import React from "react";
 import { Outlet } from "react-router-dom";
 import TopBar from "./components/topbar";
 import Footer from "./components/footer";
+
 const DefaultLayout = () => {
 
     return (
@@ -12,7 +13,7 @@ const DefaultLayout = () => {
   
         <Outlet />
   
-        {/* <Footer /> */}
+         <Footer /> 
   
         {/* <ScrollToTop /> */}
   
