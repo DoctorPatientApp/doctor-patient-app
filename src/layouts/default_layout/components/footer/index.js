@@ -53,17 +53,16 @@ const Footer = () => {
                 <h4>Follow Us</h4>
                 <ul className="list-unstyled ">
                 <li className="mobileicon bi bi-telephone-fill ">
-                  <span className='mobileicon ml-5'> +91 40 4651 5454</span>
+                  <span className='mobileicon ms-2'> +91 40 4651 5454</span>
                   </li>
                   <li className=" mobileicon bi bi-telephone-fill ">
                  
-                  <span className='mobileicon ml-5 '> +91 40 4651 541</span>
+                  <span className='mobileicon ms-2'> +91 40 4651 541</span>
                   </li>
                   <li className="mailicon bi bi-envelope-fill ">
-                    <span className='mobileicon ml-5'><Link to="mail"  className="text-decoration-none  text-dark  "> maxhospital@gmail.com</Link></span>
+                    <span className='mobileicon ms-2'><Link to="mail"  className="text-decoration-none  text-dark  "> maxhospital@gmail.com</Link></span>
                   </li>
                 </ul>
-                
                 
             </div>
             <div className=' d-flex justify-content-between py-4 my-4 border-top border-secondary'>
