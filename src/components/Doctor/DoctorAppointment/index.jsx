@@ -44,9 +44,10 @@ const DoctorAppoitnmentList = () => {
                     <th scope="col"> Appointment Id</th>
                     <th scope="col"> Patient Name </th>
                     <th scope="col"> Patient Age </th>
-                    <th scope="col"> Disease </th>
+                    <th scope="col"> Health Issue </th>
                     <th scope="col"> Mobile No</th>
-                    <th scope="col"> Action</th>
+                  
+                  
                   </tr>
                 </thead>
                 {appointmentList && appointmentList.length > 0 && (
@@ -59,9 +60,7 @@ const DoctorAppoitnmentList = () => {
                         <td> {appointment.Disease}</td>
                         <td> {appointment.PhNo}</td>
 
-                        <td>
-                          <button className="btn btn-danger"> Delete</button>{" "}
-                        </td>
+                        
                       </tr>
                     ))}
                   </tbody>

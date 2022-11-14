@@ -23,24 +23,26 @@ const Login = () => {
                     <h2 className="text-center">Login</h2>
               <form>
                 <div className="mb-3">
-                  <label for="email" className="form-label">
+                  <label htmlFor="email" className="form-label">
                     Email
                   </label>
                   <input
                     type="email"
                     className="form-control"
                     id="email"
+                    placeholder="Enter Your Email"
                     aria-describedby="emailHelp"
                   />
                   
                 </div>
                 <div className="mb-3">
-                  <label for="password" className="form-label">
+                  <label htmlFor="password" className="form-label">
                     Password
                   </label>
                   <input
                     type="password"
                     className="form-control"
+                    placeholder="Enter Your Password"
                     id="password"
                   />
                 </div>

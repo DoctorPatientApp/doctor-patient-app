@@ -34,7 +34,7 @@ const DoctorAppointmentRequest = () => {
                   <th scope="col"> Appointment Id</th>
                   <th scope="col"> Patient Name </th>
                   <th scope="col"> Patient Age </th>
-                  <th scope="col"> Disease </th>
+                  <th scope="col"> Health Issue</th>
                   <th scope="col"> Mobile No</th>
                   <th scope="col"> Action</th>
                 </tr>
@@ -50,7 +50,7 @@ const DoctorAppointmentRequest = () => {
                   <td> {user.disease} </td>
                   <td> {user.phNo} </td>
                   <td>
-                    <button className="btn btn-success hover"> accept</button>
+                    <button className="btn btn-success "> Accepted</button>
                   </td>
                 </tr>))
                 }
