@@ -41,7 +41,7 @@ const DoctorAppoitnmentList = () => {
               <table className="table table-striped table-hover ">
                 <thead>
                   <tr>
-                    <th scope="col"> Appointment Id</th>
+                    <th scope="col"> AppointmentId</th>
                     <th scope="col"> Patient Name </th>
                     <th scope="col"> Patient Age </th>
                     <th scope="col"> Health Issue </th>
